@@ -1,7 +1,7 @@
 # Учебный проект «Угадай мелодию» [![Build status][travis-image]][travis-url]
 
 * Студент: [Юрий Мамаев](https://up.htmlacademy.ru/react/4/user/888525).
-* Наставник: `Неизвестно`.
+* Наставник: [Вадим Атрощенко](https://htmlacademy.ru/profile/id1351257).
 
 ---
 
