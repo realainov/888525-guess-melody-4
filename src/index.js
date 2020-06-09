@@ -8,8 +8,8 @@ const Settings = {
 };
 
 ReactDOM.render(
-  <App
-    errorQuantity={Settings.ERROR_QUANTITY}
-  />,
-  document.querySelector(`#root`)
+    <App
+      errorQuantity={Settings.ERROR_QUANTITY}
+    />,
+    document.querySelector(`#root`)
 );
