@@ -1,9 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import WelcomeScreen from './welcome-screen.jsx';
 
 const App = (props) => {
-  // eslint-disable-next-line react/prop-types
   const {errorQuantity} = props;
 
   return (
@@ -11,6 +11,10 @@ const App = (props) => {
       errorQuantity={errorQuantity}
     />
   );
+};
+
+App.propTypes = {
+  errorQuantity: PropTypes.number.isRequired
 };
 
 export default App;
