@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app.jsx';
+import App from './components/app/app.jsx';
 
-const Settings = {
-  ERROR_QUANTITY: 3
-};
+const ERROR_QUANTITY = 3;
 
 ReactDOM.render(
     <App
-      errorQuantity={Settings.ERROR_QUANTITY}
+      errorQuantity={ERROR_QUANTITY}
     />,
     document.querySelector(`#root`)
 );
