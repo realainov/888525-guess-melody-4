@@ -7,7 +7,7 @@ it(`WelcomeScreen should render correctly`, () => {
     .create(
         <WelcomeScreen
           errorQuantity={3}
-          buttonClickHandler={() => {}}
+          onButtonClick={() => {}}
         />
     )
     .toJSON();

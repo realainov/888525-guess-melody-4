@@ -9,7 +9,7 @@ const App = (props) => {
   return (
     <WelcomeScreen
       errorQuantity={errorQuantity}
-      buttonClickHandler={() => {}}
+      onButtonClick={() => {}}
     />
   );
 };

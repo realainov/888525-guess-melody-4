@@ -13,7 +13,7 @@ it(`WelcomeButton should be pressed correctly`, () => {
   const welcomeScreen = shallow(
       <WelcomeScreen
         errorQuantity={3}
-        buttonClickHandler={onWelcomeButtonClick}
+        onButtonClick={onWelcomeButtonClick}
       />
   );
 
