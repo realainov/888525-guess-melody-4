@@ -1,11 +1,11 @@
-import React from "react";
-import renderer from "react-test-renderer";
-
-import App from "./app.jsx";
-
 const AVATAR_URL = `https://api.adorable.io/avatars/128`;
 
-const questions = [
+export const Type = {
+  ARTIST: `artist`,
+  GENRE: `genre`
+};
+
+export const questions = [
   {
     type: `genre`,
     genre: `rock`,
@@ -45,16 +45,3 @@ const questions = [
     ]
   }
 ];
-
-it(`App should render correctly`, () => {
-  const tree = renderer
-    .create(
-        <App
-          errorQuantity={3}
-          questions={questions}
-        />
-    )
-    .toJSON();
-
-  expect(tree).toMatchSnapshot();
-});

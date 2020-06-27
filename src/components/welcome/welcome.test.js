@@ -1,11 +1,11 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import WelcomeScreen from "./welcome-screen.jsx";
+import Welcome from "./welcome.jsx";
 
-it(`WelcomeScreen should render correctly`, () => {
+it(`Welcome should render correctly`, () => {
   const tree = renderer
     .create(
-        <WelcomeScreen
+        <Welcome
           errorQuantity={3}
           onButtonClick={() => {}}
         />

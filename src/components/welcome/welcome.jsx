@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const WelcomeScreen = (props) => {
+const Welcome = (props) => {
   const {errorQuantity, onButtonClick} = props;
 
   return (
@@ -31,9 +31,9 @@ const WelcomeScreen = (props) => {
   );
 };
 
-WelcomeScreen.propTypes = {
+Welcome.propTypes = {
   errorQuantity: PropTypes.number.isRequired,
   onButtonClick: PropTypes.func.isRequired
 };
 
-export default WelcomeScreen;
+export default Welcome;
